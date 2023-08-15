@@ -81,7 +81,7 @@ jobs:
     - name: Download Clang-aosp and Gcc-aosp
       run: |
         mkdir clang-aosp
-        wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz
+        wget https://qusia-my.sharepoint.com/personal/rom_qusia_onmicrosoft_com/_layouts/52/download.aspx?share=EayitG5ZmWFMhmFDa0ABd0ABXlMG0KW8z_ECRTvhPijHdQ
         tar -C clang-aosp/ -zxvf clang-r450784d.tar.gz
         mkdir gcc-aosp
         wget https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz
